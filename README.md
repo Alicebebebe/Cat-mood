@@ -1,71 +1,49 @@
-# cat-mood README
+# 🐱 Cat mood
 
-This is the README for your extension "cat-mood". After writing up a brief description, we recommend including the following sections.
+**Cat mood** — расширение для Visual Studio Code, которое добавляет немного позитива и мотивации в процесс программирования.
 
-## Features
+## Возможности
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Расширение предоставляет три команды:
 
-For example if there is an image subfolder under your extension project workspace:
+- **Pozvat kotika** — выводит дружелюбное сообщение с котиком.
+- **Cat mood** — показывает случайное позитивное сообщение для поднятия настроения.
+- **Cat motivation** — выводит мотивирующее сообщение для поддержки во время работы.
 
-\!\[feature X\]\(images/feature-x.png\)
+Все сообщения отображаются в виде уведомлений непосредственно в Visual Studio Code.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Требования
 
-## Requirements
+- Visual Studio Code версии `^1.144.0`.
+- Node.js.
+- npm.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Настройки расширения
 
-## Extension Settings
+Расширение не добавляет собственных пользовательских настроек в Visual Studio Code.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Известные проблемы
 
-For example:
+На данный момент известные проблемы отсутствуют.
 
-This extension contributes the following settings:
+## История изменений
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+### 0.0.1
 
-## Known Issues
+Первый выпуск расширения Cat mood.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- Добавлена команда `Pozvat kotika`.
+- Добавлена команда `Cat mood`.
+- Добавлена команда `Cat motivation`.
+- Реализован вывод случайных позитивных и мотивирующих сообщений.
 
 ---
 
-## Following extension guidelines
+## Автор
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+- **ФИО:** Петрунина Алиса
+- **Группа:** М3114
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+## Репозиторий
 
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+[Cat mood на GitHub](https://github.com/Alicebebebe/Cat-mood)
